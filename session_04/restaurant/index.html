@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gourmet Delights</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 1. Header: name + welcoming banner -->
+  <header class="banner">
+    <h1>Gourmet Delights</h1>
+    <p class="tagline">Seasonal plates, served slowly.</p>
+  </header>
+
+  <!-- Optional nav. Each href points at a section id further down the page. -->
+  <nav class="site-nav">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- 2. About Us -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Gourmet Delights began as a six-seat kitchen and never quite lost the habit.
+        We cook what the season gives us, change the menu when it stops making sense,
+        and keep the room quiet enough to hear the person across the table. Everything
+        is prepared in-house, from the bread to the last spoonful of sauce.
+      </p>
+    </section>
+
+    <!-- 3. Menu Highlights -->
+    <section id="menu">
+      <h2>Menu Highlights</h2>
+      <ul class="dishes">
+        <li>
+          <h3>Seared Scallops <span class="price">24</span></h3>
+          <p>Cauliflower purée, brown butter, capers and a squeeze of lemon.</p>
+        </li>
+        <li>
+          <h3>Wild Mushroom Risotto <span class="price">21</span></h3>
+          <p>Carnaroli rice, aged parmesan, thyme, finished with truffle oil.</p>
+        </li>
+        <li>
+          <h3>Duck Breast <span class="price">32</span></h3>
+          <p>Rendered slowly, served pink, with charred chicory and cherry jus.</p>
+        </li>
+        <li>
+          <h3>Heritage Carrot Tart <span class="price">19</span></h3>
+          <p>Butter pastry, whipped goat's cheese, honey and toasted hazelnut.</p>
+        </li>
+        <li>
+          <h3>Dark Chocolate Pot <span class="price">11</span></h3>
+          <p>Seventy percent chocolate, sea salt, olive oil, shortbread on the side.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 4. Contact: details + enquiry form -->
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <address>
+        112 Fillmore Street<br>
+        San Francisco, CA 94115<br>
+        <a href="tel:+14155550142">(415) 555-0142</a><br>
+        <a href="mailto:hello@gourmetdelights.example">hello@gourmetdelights.example</a>
+      </address>
+
+      <form class="contact-form">
+        <h3>Send an enquiry</h3>
+
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send enquiry</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- 5. Footer: social links -->
+  <footer>
+    <ul class="social">
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">X</a></li>
+    </ul>
+    <p class="copyright">&copy; 2026 Gourmet Delights &middot; San Francisco</p>
+  </footer>
+
+</body>
+</html>
