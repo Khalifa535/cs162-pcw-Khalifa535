@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flowboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Flowboard</h1>
+    <a class="logout" href="/logout">Log out</a>
+  </header>
+
+  <main>
+    <!-- The only div on this page. It exists to put the columns in a row. -->
+    <div class="board">
+
+      <section class="column">
+        <h2>Backlog</h2>
+        <ul>
+          <li>Research competitor pricing</li>
+          <li>Draft onboarding copy</li>
+        </ul>
+      </section>
+
+      <section class="column">
+        <h2>To do</h2>
+        <ul>
+          <li>Wireframe the settings page</li>
+          <li>Write schema for tasks table</li>
+        </ul>
+      </section>
+
+      <section class="column">
+        <h2>In progress</h2>
+        <ul>
+          <li>Build the board layout</li>
+          <li>Set up the Flask routes</li>
+        </ul>
+      </section>
+
+      <section class="column">
+        <h2>Review</h2>
+        <ul>
+          <li>PR #42: add task form</li>
+          <li>PR #40: fix column overflow</li>
+        </ul>
+      </section>
+
+      <section class="column">
+        <h2>Done</h2>
+        <ul>
+          <li>Fork and clone the repo</li>
+          <li>Open the biography PR</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>Flowboard &middot; CS162 Session 4 pre-class work &middot; Khalifa Ibrahim</p>
+  </footer>
+
+</body>
+</html>
