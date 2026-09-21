@@ -56,10 +56,4 @@ downloaded file was verified as a valid 100-by-100 PNG.
 Not done yet. A good optional extension would be to query a small public API and
 print the response status code plus one or two parsed JSON fields.
 
-## Before class
 
-- Review the form and Python script so Khalifa can explain each line in his own
-  words.
-- Add any question for class to the Forum workbook if useful. Its editor was
-  blank when last inspected; no response has been entered or submitted.
-- The course README requires PCW work to be committed and pushed before class.
