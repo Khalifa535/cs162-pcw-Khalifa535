@@ -1,15 +1,11 @@
 # CS162 Session 5: Making HTTP requests
 
-This is local pre-class preparation for Session 5. Review and edit it before
-committing or pushing it to GitHub.
-
 ## 1. httpbin form
 
-**Complete:** Khalifa filled and submitted `https://httpbin.org/forms/post` in
+**Complete:** I filled and submitted `https://httpbin.org/forms/post` in
 Chrome DevTools. The Network panel showed a successful POST to `/post` with
-status 200; he inspected the payload and the JSON response that echoed the
-submitted fields. Screenshot evidence was shared in chat, not saved in this
-folder. The key things to explain are:
+status 200; I inspected the payload and the JSON response that echoed the
+submitted fields.
 
 - the form uses `method="post"` and sends data to `/post`;
 - each control has a `name`, which becomes the key sent to the server;
@@ -19,7 +15,7 @@ folder. The key things to explain are:
 ## 2. Kanban form
 
 The file `index.html` contains a minimal form for a short task description,
-ready to paste into the class document. Khalifa viewed its browser preview.
+ready to paste into the class document. I viewed its browser preview.
 Submitting to `/tasks` returns `501` in the static preview server because no
 server route is implemented; this exercise only requires the form markup.
 
